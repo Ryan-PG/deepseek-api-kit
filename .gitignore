@@ -1,0 +1,21 @@
+# فایل‌های محیطی و کلید API
+.env
+
+# فایل سِشِن تولیدشده توسط برنامه
+session.json
+
+# پوشه‌های cache پایتون
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# فایل‌های سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# فایل‌های لاگ
+*.log

@@ -1,0 +1,10 @@
+fastapi
+fastapi-offline
+pydantic
+requests
+curl-cffi
+wasmtime
+numpy
+drissionpage
+pyvirtualdisplay
+uvicorn
