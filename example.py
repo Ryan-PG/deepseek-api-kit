@@ -12,8 +12,11 @@ response = requests.post(
     }
 )
 data = response.json()
-print(f"[پاسخ]: {data['content']}")
-print()
+try:
+    print(f"[JSON]: {data}")
+except:
+    print(f"[پاسخ]: {data['content']}")
+    print()
 
 # 2. غیراستریم با نمایش thinking (تفکر فعال)
 print("2. غیراستریم - با تفکر فعال")
